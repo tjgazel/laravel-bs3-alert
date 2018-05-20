@@ -155,7 +155,7 @@ You can also chain multiple messages together using:
 ```
 bs3Alert()
     ->danger(['Something went wrong.'], 'Ops!')
-    ->warning(['Try later.', 'Contact the administrator.', ], 'Please try one of the options below!');
+    ->warning(['Try later.', 'Contact the administrator.'], 'Please try one of the options below!');
 ```
 <br><br>
 
