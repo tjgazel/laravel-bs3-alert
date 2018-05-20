@@ -84,10 +84,10 @@ Modify the published template located at `resources/views/vendor/bs3-alert/templ
         <span aria-hidden="true">&times;</span>
       </button>
       @if($bs3Alert['title'])
-        <h5>{!! $bs3Alert['title'] !!}</h5>
+        <p><strong>{!! $bs3Alert['title'] !!}</strong></p>
       @endif
       @foreach($bs3Alert['messages'] as $bs3AlertMessage)
-        <p>{!! $bs3AlertMessage !!}</p>
+        <p style="line-height: 1.1em">{!! $bs3AlertMessage !!}</p>
       @endforeach
     </div>
   @endforeach
